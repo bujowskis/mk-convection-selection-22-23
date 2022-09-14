@@ -10,7 +10,7 @@ Collect data on relatively simple evolutionary algorithm runs with different `mu
 The main interest was in the fitness of the best individual over the whole span of the simulation. The results are as follows:
 
 ### 0
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/best/plot-best-0.png" height="200">
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-0.png" height="200">
 
 - With no mutations occuring, the algorithm only **exploits**, with no **exploration**.
 - Clearly visible, prolonged periods of stagnation with minimal or no improvement can be seen in between `500-8,000` and
@@ -21,7 +21,7 @@ In complex enough problems, it would be impossible for the algorithm to reach re
 The initial population allows reaching it by exploiting, which is undesired.
 
 ### 0.05
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/best/plot-best-005.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-005.png" height="200"/>
 
 As compared to no mutations:
 - The initial stagnation periods are shorter.
@@ -34,7 +34,7 @@ That indicates introducing mutation and exploration proved helpful, and given en
 have found potentially better solution.
 
 ### 0.1
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/best/plot-best-010.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-010.png" height="200"/>
 
 - There is just one initial stagnation period, and it is even shorter than the ones before.
 - The algorithm reaches just below `1.2` fitness in about half the time it took for no mutations to do so.
@@ -42,7 +42,7 @@ have found potentially better solution.
 That would indicate `0.1` mutation intensity may already be too much for the given task and computational resources.
 
 ### 0.2
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/best/plot-best-020.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-020.png" height="200"/>
 
 - The plot suggests about the same fitness gains as for `no mutations` one, although this one tops out and stagnates with
 about the same fitness value as for `10,000` evaluations in `no mutations`.
@@ -50,19 +50,19 @@ about the same fitness value as for `10,000` evaluations in `no mutations`.
 may already be big enough, leading to unsuccessful exploit, potentially in a form of lost genes of the local optimum found so far.
 
 ### 0.3
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/best/plot-best-030.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-030.png" height="200"/>
 
 - The similar situation as for `0.2` mutation intensity, though worse (tops out even before reaching `1.0`).
 - Further proof the mutation intensity is already too big and the algorithm is too random.
 
 ### 0.4
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/best/plot-best-040.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-040.png" height="200"/>
 
 - (Just as `0.3` is to `0.2`, this one is to `0.3`)
 - Further proof mutation intensity too big
 
 ### 0.5
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/best/plot-best-050.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-050.png" height="200"/>
 
 - Big overkill
 - Algorithm virtually instantly, randomly, finds the solution it nearly tops out at
@@ -77,7 +77,7 @@ to prove me these plots ilustrated the algorithm's behavior, inner-workings and 
 not to mention and analyze these.
 
 ### 0
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/max/plot-max-0.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/max/plot-max-0.png" height="200"/>
 
 - There are virtually no oscillations up around `8,000` evaluations. Until that point, a quite steady growth can be observed.
 - After that point, the plot displays relatively small oscillations in max fitness value.
@@ -86,7 +86,7 @@ local optimum found and hardly explores further, making minimal improvements, mo
 that optimum.
 
 ### 0.05
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/max/plot-max-005.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/max/plot-max-005.png" height="200"/>
 
 - The oscillations show up much quicker
 - After initial gain to nearly `1.2` fitness at around `10,000` evaluations, the algorithm oscillates in a downward trend.
@@ -97,7 +97,7 @@ managed to exploit it, which proved to yield better result than the previous opt
 - Given more evaluations, it looks like the algorithm may have done better than the no mutations approach.
 
 ### 0.1
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/max/plot-max-010.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/max/plot-max-010.png" height="200"/>
 
 - The oscillations occur roughly as quick as in `0.05`, although are relatively bigger throughout the whole plot.
 - There seem to be two significant downard dents (`18,000` and `42,000` evaluations) followed by upward trend.
@@ -107,7 +107,7 @@ failing to exploit them enough.
 - Even so, it still does not seem the algorithm is too random, and the general uptrend remains.
 
 ### 0.2
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/max/plot-max-020.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/max/plot-max-020.png" height="200"/>
 
 - The oscillations have just 2 notable upward spikes (`11,000` and `32,000` evaluations), while having around 5 notable downward ones
 (`13,000`, `18,000`, `26,000`, `29,000` and `43,000` evaluations).
@@ -118,9 +118,9 @@ It clearly seems too random.
 
 ### 0.3, 0.4, 0.5
 <div style="display: flex, direction: row">
-  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/max/plot-max-030.png" height="200"/>
-  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/max/plot-max-040.png" height="200"/>
-  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/max/plot-max-050.png" height="200"/>
+  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/max/plot-max-030.png" height="200"/>
+  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/max/plot-max-040.png" height="200"/>
+  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/max/plot-max-050.png" height="200"/>
 </div>
 
 - The situation is similar to that of `0.2`, though worse
@@ -132,7 +132,7 @@ The interesting results of `max fitness` analysis made me think and pay more att
 but also the other data. From all the data we had, I thought it would also be good to visualize the **average fitness**.
 
 ### 0
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/avg/plot-avg-0.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/avg/plot-avg-0.png" height="200"/>
 
 - There is a clear, general uptrend
 - The oscillations are becoming bigger towards around `25,000` and then are becoming smaller. That would indicate that
@@ -145,7 +145,7 @@ it may mean taking them away from their local optima
 - This clearly indicates the problem of too much exploit and not enough exploration.
 
 ### 0.05
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/avg/plot-avg-005.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/avg/plot-avg-005.png" height="200"/>
 
 - Besides the three notable downspikes (`13,000`, `24,000` and `28,000`**(!!!)**), there is a general upward trend.
 - The oscillations are quite consistent, except the donwspikes.
@@ -154,7 +154,7 @@ the same local optimum, which given enough evaluations, have prooved to bring up
 - In the end, oscillations got smaller, suggesting convergence
 
 ### 0.1
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/avg/plot-avg-010.png" height="200"/>
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/avg/plot-avg-010.png" height="200"/>
 
 - The oscillations are quite consistent throughout the whole plot, with an exception of frequent spikes up and down
 - In the end, oscillations got smaller, suggesting convergence (although not as high as in the previous cases)
@@ -173,8 +173,8 @@ It seems the mutation intensity may be too much and the algorithm fails to explo
 
 ### 0.4, 0.5
 <div style="display: flex, direction: row">
-  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/avg/plot-avg-040.png" height="200"/>
-  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/tree/main/pretask/avg/plot-avg-050.png" height="200"/>
+  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/avg/plot-avg-040.png" height="200"/>
+  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/avg/plot-avg-050.png" height="200"/>
 </div>
 
 - Not only the oscillations are quite significant throughout the plot, but there are also frequent significant downward spikes in fitness
