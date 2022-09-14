@@ -10,7 +10,7 @@ Collect data on relatively simple evolutionary algorithm runs with different `mu
 The main interest was in the fitness of the best individual over the whole span of the simulation. The results are as follows:
 
 ### 0
-<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-0.png" height="200">
+<img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/plot-best-0.png" height="200"/>
 
 - With no mutations occuring, the algorithm only **exploits**, with no **exploration**.
 - Clearly visible, prolonged periods of stagnation with minimal or no improvement can be seen in between `500-8,000` and
@@ -163,8 +163,8 @@ the biger tendency for algorithm to explore. It appears so, as if given more eva
 
 ### 0.2, 0.3
 <div style="display: flex, direction: row">
-  <img src="pretask/avg/plot-avg-020.png" height="200"/>
-  <img src="pretask/avg/plot-avg-030.png" height="200"/>
+  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/avg/plot-avg-020.png" height="200"/>
+  <img src="https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/avg/plot-avg-030.png" height="200"/>
 </div>
 
 - The oscillations are more or less equally big throughout the plot since the initial increase in fitness.
