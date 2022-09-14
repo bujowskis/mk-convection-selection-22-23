@@ -5,7 +5,7 @@ Collect data on relatively simple evolutionary algorithm runs with different `mu
 *(all the plots can be found in subdirectories of `pretask`)*
 
 ## Best fitness
-*[directory with plots of best individual](pretask/best)*
+*[directory with plots of best individual](https://github.com/bujowskis/mk-convection-selection-22-23/blob/main/pretask/best/)*
 
 The main interest was in the fitness of the best individual over the whole span of the simulation. The results are as follows:
 
